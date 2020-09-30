@@ -47,3 +47,14 @@ body{
 .right{
 	padding: 10px
 }
+
+@media (max-width : 500px ){
+	.grid-container {
+		grid-template-areas: 
+			'header header header header'
+			'navbar navbar navbar navbar'
+			'middle middle middle middle'
+			'right right right right'
+			'footer footer footer footer';
+	}
+}
