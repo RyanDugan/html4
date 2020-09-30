@@ -5,7 +5,8 @@
 }
 
 body{
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #F7D4E3;
 }
 
 .grid-container{
@@ -21,13 +22,14 @@ body{
 }
 .header{
 	grid-area: header;
-	background-color: #f1f1f1;
+	background-color: #C21460;
 	padding: 30px;
 	text-align: center;
 	font-size: 50px;
 }
 .navbar{
 	grid-area: navbar;
+	background-color: #FD5D08;
 }
 .middle{
 	grid-area: middle;
@@ -37,9 +39,11 @@ body{
 }
 .footer{
 	grid-area: footer;
-	background-color:#f1f1f1;
+	background-color:#341809;
 	padding: 10px;
 	text-align: center;
+	color: #FDDEE0;
+
 }
 
 .navbar,
