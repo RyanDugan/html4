@@ -74,11 +74,11 @@ ul:hover{
 	text-align: left;
 }
 
-.previous {
+.one {
 	background-color: #FD5D08;
 }
 
-.next {
+.two {
 	background-color: #FD5D08;
 }
 
@@ -97,6 +97,9 @@ ul:hover{
 	cursor: pointer;
 }
 
+.active {
+	background-color: #C21460;
+}
 
 .navbar,
 .middle,
