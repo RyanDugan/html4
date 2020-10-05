@@ -8,13 +8,11 @@ body{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	background-color: #F7D4E3;
 }
-.pbody{
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	text-align: left;
-}
 ul{
   color: white;
   list-style-type: none;
+  padding-left: 0;
+  width: 100%;
   text-align: center;
   cursor: pointer;
 }
@@ -33,7 +31,6 @@ ul:hover{
 		'footer footer footer footer';
 	grid-gap: 1em;
 	text-align: center;
-
 }
 .header{
 	grid-area: header;
@@ -51,6 +48,11 @@ ul:hover{
 }
 .right{
 	grid-area: right;
+}
+
+.pbody{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: left;
 }
 .footer{
 	grid-area: footer;
