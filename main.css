@@ -62,15 +62,19 @@ ul:hover{
 	text-align: center;
 	color: #FDDEE0;
 }
+.footer li {
+	display: inline-block;
+	list-style-type: none;
+	font-size: 20px;
+	padding: 20px;
+}
+
+
 .navbar,
 .middle,
 .right{
 	padding: 10px
 	
-}
-
-.line{
-	list-style: 
 }
 
 @media (max-width : 700px ){
