@@ -8,6 +8,10 @@ body{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	background-color: #F7D4E3;
 }
+img{
+	box-shadow: 5px 5px 5px;
+}
+
 ul{
   color: white;
   list-style-type: none;
