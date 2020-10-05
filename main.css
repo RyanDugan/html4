@@ -62,14 +62,15 @@ ul:hover{
 	text-align: center;
 	color: #FDDEE0;
 }
-.cursor{
-	cursor: pointer;
-}
 .navbar,
 .middle,
 .right{
 	padding: 10px
 	
+}
+
+.line{
+	list-style: 
 }
 
 @media (max-width : 700px ){
