@@ -5,9 +5,15 @@
 }
 
 a {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-decoration: none;
+	color: white;
 	display: inline-block;
-	padding: 8px 16px;
+	padding: 5px 10px;
+}
+
+a:hover {
+	background-color: #C21460;
 }
 
 body{
@@ -66,6 +72,14 @@ ul:hover{
 .pbody{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-align: left;
+}
+
+.previous {
+	background-color: #FD5D08;
+}
+
+.next {
+	background-color: #FD5D08;
 }
 
 .footer{
