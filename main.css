@@ -13,13 +13,13 @@ body{
 	text-align: left;
 }
 ul{
-  border: none;
   color: white;
-  padding: 1fr;
+  list-style-type: none;
   text-align: center;
-  display: inline-grid;
   cursor: pointer;
-
+}
+ul:hover{
+	background-color: #C21460
 }
 
 /*----Classes Below Here----*/
