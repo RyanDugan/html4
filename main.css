@@ -42,6 +42,7 @@ ul:hover{
 .navbar{
 	grid-area: navbar;
 	background-color: #FD5D08;
+	font-size: 20px;
 }
 .middle{
 	grid-area: middle;
@@ -67,13 +68,14 @@ ul:hover{
 	list-style-type: none;
 	font-size: 20px;
 	padding: 20px;
+	cursor: pointer;
 }
 
 
 .navbar,
 .middle,
 .right{
-	padding: 10px
+	padding: 20px
 	
 }
 
